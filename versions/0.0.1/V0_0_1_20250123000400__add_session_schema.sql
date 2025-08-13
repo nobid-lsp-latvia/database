@@ -1,0 +1,4 @@
+CREATE SCHEMA IF NOT EXISTS session AUTHORIZATION edim;
+COMMENT ON SCHEMA session IS 'Sesijas shēma';
+
+GRANT ALL ON SCHEMA session TO edim;

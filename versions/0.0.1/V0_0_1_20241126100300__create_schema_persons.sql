@@ -1,0 +1,4 @@
+CREATE SCHEMA IF NOT EXISTS person AUTHORIZATION edim;
+COMMENT ON SCHEMA person IS 'Personas shēma';
+
+GRANT ALL ON SCHEMA person TO edim;

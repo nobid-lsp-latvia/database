@@ -1,0 +1,4 @@
+CREATE SCHEMA IF NOT EXISTS wallet AUTHORIZATION edim;
+COMMENT ON SCHEMA wallet IS 'Digitālā maka shēma';
+
+GRANT ALL ON SCHEMA wallet TO edim;
